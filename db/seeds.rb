@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Ingredient.create(name: "lemon")
+Ingredient.create(name: "ice")
+Ingredient.create(name: "mint leaves")
+
+# Ingredient.new(name:"u7lemon").save
+# rails generate model Review content:text restaurant:references
+Cocktail.create(name: "Mojito")
+Cocktail.create(name: "Pina")
+
+
+# rails generate model Cocktail name:text
+# rails generate model Dose description ingredient:references cocktail:references
+# rails generate model Ingredient name:string
